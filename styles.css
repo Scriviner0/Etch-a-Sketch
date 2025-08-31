@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 60vw;
+    aspect-ratio: 1/1;  
+      max-width: 600px;
+
+
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+  border: 1px solid black;
+   flex: 1 1 calc(100% / 16);
+   background-color:  grey;
+    aspect-ratio: 1/1;
+}
