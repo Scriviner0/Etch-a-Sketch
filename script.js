@@ -15,17 +15,9 @@ function createGrid(number) {
            
                container.appendChild(row);
 
-
-           }
-
-
-
-
-
-
+            }
 }
-
-
+ 
 
 
 
@@ -37,3 +29,14 @@ function createGrid(number) {
 
 
 createGrid(16);
+
+const hov = document.querySelectorAll(".col");
+
+hov.forEach( col =>
+col.addEventListener("mouseenter", function() {
+   let r = Math.floor(Math.random()*256);
+   let g=  Math.floor(Math.random()*256);
+   let b = Math.floor(Math.random()*256);
+
+   col.style.backgroundColor = `rgb(${r},${g},${b})`
+}))

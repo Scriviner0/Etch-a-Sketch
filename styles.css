@@ -31,6 +31,6 @@ body {
 .col {
   border: 1px solid black;
    flex: 1 1 calc(100% / 16);
-   background-color:  grey;
+   background-color: grey;
     aspect-ratio: 1/1;
 }
