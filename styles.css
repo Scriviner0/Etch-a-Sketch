@@ -8,6 +8,7 @@ body {
   
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -21,6 +22,8 @@ body {
     aspect-ratio: 1/1;  
       max-width: 600px;
 
+      margin-top: 10px;
+
 
 }
 
@@ -33,4 +36,20 @@ body {
    flex: 1 1 calc(100% / 16);
    background-color: grey;
     aspect-ratio: 1/1;
+}
+
+#btn {
+
+    display : flex;
+    flex: start;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+     border: none;
+     font-size: 12px;
+     cursor: pointer;
+ 
+
+
 }
